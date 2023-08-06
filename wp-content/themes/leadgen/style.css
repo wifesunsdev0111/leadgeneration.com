@@ -1,0 +1,113 @@
+/*
+Theme Name: Lead Generation
+*/
+
+/*                                                    */
+/*   FORM FIELDS enhanced error display               */
+/*                                                    */
+div.failure {
+	display: block;
+	background: #ffdfdf url(images/li-err-bg.png) repeat!important;
+	padding: 10px 15px!important;
+	margin: 0 0 14px;
+}
+
+ol.cf-ol .cf_li_err input {
+	background: #ffdfdf url(images/li-err-bg.png) repeat!important;
+}
+
+.cform {
+	margin-bottom: 0;
+}
+.col1-layout {
+	width: 100% !important;
+}
+
+/*
+ * Add rules to override the form styles
+ */
+body.body-class-page-id-833 .hs-form .hs-button {
+	width: 50%;
+	height: 61px;
+	padding: 10px 19px 6px 18px;
+	border: 1px solid #bd8c6a !important;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 #ffbfa9 inset;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 #ffbfa9 inset;
+	background: #ff6d3b;
+	font-size: 28px;
+	line-height: 32px;
+	font-family: 'ralewaysemibold';
+	color: #fff;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	text-shadow: none;
+	font-weight: 400;
+}
+body.body-class-page-id-833 .hs-input{
+font-size: 12px;
+}
+
+#content {
+	width: 60%;
+}
+
+@media (max-width:767px) {
+	#content {
+		width: 100%;
+	}
+}
+
+.drop-menu li {
+    padding: 7px 50px 8px;
+}
+.menu_our_pledge {
+	background-image: url('images/pledge.png');
+	background-repeat:no-repeat;
+	height:41px;
+}
+
+.menu_our_process {
+	background-image: url('images/process.png');
+	background-repeat:no-repeat;
+	height:41px;
+}
+
+.menu_real_time_leads {
+	background-image: url('images/eads.png');
+	background-repeat:no-repeat;
+	height:41px;
+}
+
+.menu-link1 > a{
+	background-image: url('images/menu-icons-v2.png');
+	background-repeat:no-repeat;
+	background-position:0 -2px;
+	height: 18px;
+	display:block;
+}
+
+.about-link > a{
+	background-image: url('images/menu-icons-v2.png');
+	background-repeat:no-repeat;
+	background-position:0 -35px;
+	height: 18px;
+	display:block;
+}
+
+.blog-link > a{
+	background-image: url('images/menu-icons-v2.png');
+	background-repeat:no-repeat;
+	background-position:0 -95px;
+	height: 18px;
+	display:block;
+}
+
+.contact_us-link > a{
+	background-image: url('images/menu-icons-v2.png');
+	background-repeat:no-repeat;
+	background-position:0 -126px;
+	height: 18px;
+	display:block;
+}
